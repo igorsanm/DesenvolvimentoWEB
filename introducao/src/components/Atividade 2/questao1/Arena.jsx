@@ -1,8 +1,9 @@
 import React, { Component } from "react"
 import Hero from "./Hero"
 import Enemy from "./Enemy"
-import { IMG_ENEMY, IMG_HEROI, NOME_ENEMY, NOME_HEROI } from '../../../strings'
+import { IMG_ENEMY, IMG_HEROI, NOME_ENEMY, NOME_HEROI } from "../../../strings"
 
+ 
 
 class Arena extends Component {
     render(){

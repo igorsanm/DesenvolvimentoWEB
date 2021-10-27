@@ -1,14 +1,8 @@
 import ReactDOM from 'react-dom'
 
-import Arena from './components/Atividade 2/questao1/Arena'
-import World from './components/Atividade 2/questao3/World'
+import VotacaoCidades from './components/Atividade 3/VotacaoCidades'
 
 const root = document.getElementById('root')
 ReactDOM.render(
-    <World>
-        <Arena />
-        <Arena />
-        <Arena />
-    </World>
-    
+    <VotacaoCidades/>
     , root)
